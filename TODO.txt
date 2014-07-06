@@ -1,0 +1,35 @@
+To Do:
+
+	Custom Timers	
+	Link filtering
+	New Config file
+	Moderator Functions
+
+
+
+Done:
+	
+	Fix closing raffles that don't have any tickets bought.
+	Make backups of the SQLite file
+	!top <x> command
+	Some extra sanity checking (IE, check for trailing spaces, etc)
+	Add display to see if people are following in the raffle output
+	!gamble close/!gamble winner
+	Add TimeStamps to error logs
+	Fix !bet indexes
+	Error Logging to file
+	Fix database issues
+	Add current payout amount to new users to the channel
+	Comma between multi-user !<currency> queries
+	Typo in !gamble open output message
+	Space after "Winners:" in a pool when no one wins.
+	SuperMod command logs.
+	Change the raffle open text to say <currency> instead of tokens
+
+
+
+
+MAYBE --
+
+Check other user's currency
+

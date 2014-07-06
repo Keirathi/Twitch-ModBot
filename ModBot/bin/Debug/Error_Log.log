@@ -1,0 +1,218 @@
+*************Error Message (via checkStream()): 8/5/2013 12:46:13 PM*********************************
+System.Net.WebException: The remote server returned an error: (408) Request Timeout.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at ModBot.Irc.checkStream() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1213
+
+*************Error Message (via checkStream()): 8/5/2013 12:50:42 PM*********************************
+System.Net.WebException: The remote server returned an error: (408) Request Timeout.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at System.Net.WebClient.DownloadString(String address)
+   at ModBot.Irc.checkStream() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1213
+
+*************Error Message (via Listen()): 8/30/2013 3:10:13 PM*********************************
+System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+near "@channel": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Database.setBtag(String user, String btag) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 201
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 975
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 221
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 174
+
+*************Error Message (via Listen()): 8/30/2013 5:25:05 PM*********************************
+System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+near ",": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Database.test(Int32 amount) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 127
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 987
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 221
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 174
+
+*************Error Message (via Listen()): 8/30/2013 5:27:59 PM*********************************
+System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+near ",": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Database.test(Int32 amount) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 129
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 987
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 221
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 174
+
+*************Error Message (via Listen()): 8/30/2013 6:28:08 PM*********************************
+System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+near "@command": syntax error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Commands.addCommand(String command, Int32 level, String output) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Commands.cs:line 79
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 926
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 221
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 174
+
+*************Error Message (via Listen()): 8/30/2013 10:20:09 PM*********************************
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1004
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:22:21 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 165
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:26:00 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 163
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:27:34 PM*********************************
+System.Data.SQLite.SQLiteException (0x80004005): SQLite error
+Insufficient parameters supplied to the command
+   at System.Data.SQLite.SQLiteStatement.BindParameter(Int32 index, SQLiteParameter param)
+   at System.Data.SQLite.SQLiteStatement.BindParameters()
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at ModBot.Database.test3(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 186
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 170
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:30:04 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 163
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:31:11 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 164
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:50:44 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 163
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:53:02 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.what(String user, SQLiteCommand cmd) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 175
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 163
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 10:58:34 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 164
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 11:00:12 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 165
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 11:09:30 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.test2(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 165
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/30/2013 11:31:59 PM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.set_Transaction(SQLiteTransaction value)
+   at ModBot.Database.test4(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 199
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 1019
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/31/2013 12:00:06 AM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.addCurrency(String[] users) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 205
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 993
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
+*************Error Message (via Listen()): 8/31/2013 12:14:07 AM*********************************
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'SQLiteCommand'.
+   at System.Data.SQLite.SQLiteCommand.CheckDisposed()
+   at System.Data.SQLite.SQLiteCommand.get_Parameters()
+   at ModBot.Database.addCurrency(String[] users, Int32 amount) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Database.cs:line 206
+   at ModBot.Irc.handleMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 993
+   at ModBot.Irc.parseMessage(String message) in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 222
+   at ModBot.Irc.Listen() in C:\Users\Jonathan\Desktop\Downloads\C# Projects\ModBot Public\ModBot\Irc.cs:line 175
+
